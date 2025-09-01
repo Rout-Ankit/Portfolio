@@ -1,11 +1,14 @@
 import { ArrowRight, ExternalLink, Github, Section } from "lucide-react";
+import project1 from "../assets/photos/project1.jpg";
+import project2 from "../assets/photos/project2.jpg";
+import project3 from "../assets/photos/project3.jpg";
 
 const projects = [
     {
         id:1,
         title:"Project_1",
         description:"Here is the description of project 1 is to be attached", 
-        Image:"../src/assets/photos/project1.jpg",
+        Image:project1,
         tags:["tag1","tag2","tag3"],
         demourl:"#",
         githuburl:"#" , 
@@ -14,7 +17,7 @@ const projects = [
         id:2,
         title:"Project_2",
         description:"Here is the description of project 2 is to be attached", 
-        Image:"../src/assets/photos/project2.jpg",
+        Image:project2,
         tags:["tag1","tag2","tag3"],
         demourl:"#",
         githuburl:"#" , 
@@ -23,7 +26,7 @@ const projects = [
         id:3,
         title:"Project_3",
         description:"Here is the description of project 3 is to be attached", 
-        Image:"../src/assets/photos/project3.jpg",   
+        Image:project3,   
         tags:["tag1","tag2","tag3"],
         demourl:"#",
         githuburl:"#" , 
